@@ -48,3 +48,11 @@ table {
 }
 
 
+
+nav {
+    display: inline-block;
+}
+
+.nav ul li {
+ display: inline-block;
+}
