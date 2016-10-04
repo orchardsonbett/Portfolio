@@ -55,11 +55,12 @@ nav, ul, li, a {
 }
 img {
     width: 50%;
+    height: auto;
     background-color: #FBB448;float: left;
 }
 .name, p {
     text-align: center;
-    padding-bottom: 130px;
+    padding-bottom: 135px;
     font-size: 25px;font-family: 'yellowtail';
 }
 #About {
@@ -72,6 +73,7 @@ img {
 .left {
     float: left;
     width: 50%;
+    background-color: #FBB448;
 }
 .left, p {
     font-size: 30px;
@@ -82,4 +84,23 @@ img {
 .front {
     float: left;
     width: 50%;
+    background-color: white;
+}
+.front, p {
+    font-size: 30px;
+}
+.and {
+    background-color: #FBB448;
+}
+.and, p{
+    font-size: 30px;
+}
+.footer {
+    background-color: #FBB448;
+    text-align: center;
+}
+.about {
+    padding: 0 5px 0 5px;
+    border: solid 5px #ebebe0;
+    margin: 0;
 }
