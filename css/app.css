@@ -46,61 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-nav, ul, li, a {
-    display: inline-block;padding-left: 50px;padding-right: 50px;text-align: center;font-family: 'Yellowtail', cursive;
-    background-color: #ebebe0;
-}
-.pro, h1 {
-    font-family: 'Playball', cursive;
-}
-img {
-    width: 50%;
-    height: auto;
-    background-color: #FBB448;float: left;
-}
-.name, p {
-    text-align: center;
-    padding-bottom: 135px;
-    font-size: 25px;font-family: 'yellowtail';
-}
-#About {
-    text-align: center;
-}
-.first {
-    text-align: center;
-    padding: 0 260px 0 260px;font-size: 30px;
-}
-.left {
-    float: left;
-    width: 50%;
-    background-color: #FBB448;
-}
-.left, p {
-    font-size: 30px;
-}
-.right, p {
-    font-size: 30px;
-}
-.front {
-    float: left;
-    width: 50%;
-    background-color: white;
-}
-.front, p {
-    font-size: 30px;
-}
-.and {
-    background-color: #FBB448;
-}
-.and, p{
-    font-size: 30px;
-}
-.footer {
-    background-color: #FBB448;
-    text-align: center;
-}
-.about {
-    padding: 0 5px 0 5px;
-    border: solid 5px #ebebe0;
-    margin: 0;
-}
+
+
+
