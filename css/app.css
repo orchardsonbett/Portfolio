@@ -49,6 +49,9 @@ table {
 
 /*Styling of body begins here*/
 
+
+
+/*The buttons will be arranged horizontally by making the list items inline-block. We'll make them butt up against each other with a little negative margin*/
 .nav {
     list-style: none;
     text-align: center;
@@ -58,6 +61,11 @@ table {
     display: inline-block;
     margin-right: -4px;
 }
+
+
+/*The lovely three dimensionality of the buttons comes from a subtle gradient and bevel and embossing courtesy of a pair of box-shadows, one normal and one inset. The width and height of the buttons are identical creating a square, which turns to a circle with border-radius. The line-height matches the height and text-align is set to center, so the icons will be both horizontally and vertically centered.*/
+
+
 .nav a{
     display: block;
   background-color: #f7f7f7;
@@ -75,4 +83,13 @@ table {
   line-height: 144px;
   border-radius: 50%;
   box-shadow: 0px 3px 8px #aaa, inset 0px 2px 3px #fff;
+}
+
+/*We can flatten out the buttons a bit on :hover to create a pressed look. You may want to save that for :active and do something else for :hover, but we'll leave that up to you.*/
+
+
+.nav a:hover {
+    text-decoration: none;
+    color: #555;
+    background: #f5f5f5;
 }
