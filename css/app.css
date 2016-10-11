@@ -1,3 +1,4 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Baskerville|Playball';
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -134,8 +135,16 @@ img {
     height: auto;
 }
 p {
-
+    font-family: 'Playball', cursive;
+    text-align: center;
+    font-size: 20px;
 }
-h1 {
-
+#Profile ,h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
 }
+
+footer {
+    text-align: center;background-color: #FBB448;height: 90px;
+}
+
