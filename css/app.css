@@ -5,7 +5,7 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6,p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -128,7 +128,13 @@ table {
 
 /*The size of the well (a bit larger than the button itself) comes from absolutely positioning itself behind the button and stretching itself out by using negative positioning values (top/bottom/left/right). The 3D look this time comes from a top border and inset box-shadow creating an internal shadow.*/
 
-
+body p{
+    font-size: 30px;
+    text-align: center;
+}
+body h1 {
+    font-family: 'Libre Baskerville', serif;
+}
 
 img {
     width: 100%;
@@ -137,11 +143,12 @@ img {
 p {
     font-family: 'Playball', cursive;
     text-align: center;
-    font-size: 20px;
+
+
 }
 h1 {
-    font-family: 'Libre Baskerville', serif;
-    text-align: center;
+
+    text-align: center
 }
 
 footer {
@@ -149,6 +156,9 @@ footer {
 }
 
 
-#Projects a {
+body #Projects a {
     display: block;
+    font-size: 'Playball', cursive;
+    font-size: 20px;
 }
+
