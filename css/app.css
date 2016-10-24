@@ -148,3 +148,7 @@ footer {
     text-align: center;background-color: #FBB448;height: 90px;
 }
 
+
+#Projects a {
+    display: block;
+}
